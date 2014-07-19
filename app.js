@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
 app.get('/', function(req, res) {
-  res.render('index', { title: 'Express', heading: 'Let\'s get started' });
+  res.render('index', { title: 'Express', text: 'Let\'s get started' });
 });
 
 // Get the server started
